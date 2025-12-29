@@ -49,7 +49,7 @@ const App = () => {
   function totalCostCalculate(totalCost){
      
     console.log(typeof(totalCost))
-    setTotalCost((prev)=>prev+totalCost)
+    setTotalCost(totalCost)
 
   }
 
